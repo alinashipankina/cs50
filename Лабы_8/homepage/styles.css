@@ -1,0 +1,25 @@
+.body-container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-copiright {
+    font-size: 12px;
+}
+
+.footer-paragraph {
+    display: inline-block;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+

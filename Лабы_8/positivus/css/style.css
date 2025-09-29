@@ -1,0 +1,101 @@
+@import url(/css/header.css);
+@import url(/css/banner.css);
+@import url(/css/logotypes.css);
+@import url(/css/services.css);
+@import url(/css/proposal.css);
+@import url(/css/case-studies.css);
+@import url(/css/working-process.css);
+@import url(/css/team.css);
+@import url(/css/testimonials.css);
+@import url(/css/contact.css);
+@import url(/css/footer.css);
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  margin: 0 5%;
+  padding: 0;
+  color: #191a23;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}

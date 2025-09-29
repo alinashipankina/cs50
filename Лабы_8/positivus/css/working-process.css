@@ -1,0 +1,376 @@
+@media (min-width: 1200px) {
+  .working-process {
+    width: 100%;
+    margin-bottom: 140px;
+  }
+
+  .working-process-container {
+    margin-bottom: 80px;
+  }
+
+  .working-process-text {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .working-process-text__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 40px;
+    font-weight: 600;
+    background-color: #b9ff66;
+    padding: 0px 7px;
+    border-radius: 10px;
+  }
+
+  .working-process-text__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .working-process-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .working-process-block-card {
+    border: 1px solid #191a23;
+    border-radius: 30px;
+    box-shadow: 0px 5px #191a23;
+    padding: 40px 60px;
+    background-color: #f3f3f3;
+  }
+
+  .working-process-block-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .working-process-block-card-text-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .working-process-block-card-text-title__number {
+    font-size: 60px;
+    margin-right: 20px;
+  }
+
+  .working-process-block-card-text-title__heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-text__button {
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    transition: 0.5s;
+  }
+
+  .working-process-block-card-text__button:hover {
+    background-color: #b9ff66;
+    transition: 0.3s ease-in-out;
+  }
+
+  .working-process-block-card-drop-down-text__description {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-drop-down-text {
+    display: none;
+  }
+
+  .working-process-block-card-drop-down-text__line {
+    border-color: #000000;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .working-process {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .working-process-container {
+    margin-bottom: 50px;
+  }
+
+  .working-process-text {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .working-process-text__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 40px;
+    font-weight: 600;
+    background-color: #b9ff66;
+    padding: 0px 7px;
+    border-radius: 10px;
+  }
+
+  .working-process-text__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .working-process-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .working-process-block-card {
+    border: 1px solid #191a23;
+    border-radius: 30px;
+    box-shadow: 0px 5px #191a23;
+    padding: 40px 60px;
+    background-color: #f3f3f3;
+  }
+
+  .working-process-block-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .working-process-block-card-text-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .working-process-block-card-text-title__number {
+    font-size: 50px;
+    margin-right: 20px;
+  }
+
+  .working-process-block-card-text-title__heading {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-text__button {
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+  }
+
+  .working-process-block-card-drop-down-text__description {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-drop-down-text {
+    display: none;
+  }
+
+  .working-process-block-card-drop-down-text__line {
+    border-color: #000000;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 480px) {
+  .working-process {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  .working-process-container {
+    margin-bottom: 50px;
+  }
+
+  .working-process-text {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .working-process-text__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+    font-weight: 600;
+    background-color: #b9ff66;
+    padding: 0px 7px;
+    border-radius: 10px;
+  }
+
+  .working-process-text__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .working-process-text__description br {
+    display: none;
+  }
+
+  .working-process-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .working-process-block-card {
+    border: 1px solid #191a23;
+    border-radius: 30px;
+    box-shadow: 0px 5px #191a23;
+    padding: 30px 50px;
+    background-color: #f3f3f3;
+  }
+
+  .working-process-block-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .working-process-block-card-text-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .working-process-block-card-text-title__number {
+    font-size: 36px;
+    margin-right: 20px;
+  }
+
+  .working-process-block-card-text-title__heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-text__button {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+  }
+
+  .working-process-block-card-drop-down-text__description {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-drop-down-text {
+    display: none;
+  }
+
+  .working-process-block-card-drop-down-text__line {
+    border-color: #000000;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .working-process {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .working-process-container {
+    margin-bottom: 30px;
+  }
+
+  .working-process-text__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+    font-weight: 600;
+    background-color: #b9ff66;
+    padding: 0px 7px;
+    border-radius: 10px;
+    display: inline;
+  }
+
+  .working-process-text__description {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .working-process-text__description br {
+    display: none;
+  }
+
+  .working-process-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .working-process-block-card {
+    border: 1px solid #191a23;
+    border-radius: 30px;
+    box-shadow: 0px 5px #191a23;
+    padding: 20px 30px;
+    background-color: #f3f3f3;
+  }
+
+  .working-process-block-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .working-process-block-card-text-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .working-process-block-card-text-title__number {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+
+  .working-process-block-card-text-title__heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-text__button {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+  }
+
+  .working-process-block-card-drop-down-text__description {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .working-process-block-card-drop-down-text {
+    display: none;
+  }
+
+  .working-process-block-card-drop-down-text__line {
+    border-color: #000000;
+    margin-top: 20px;
+  }
+}

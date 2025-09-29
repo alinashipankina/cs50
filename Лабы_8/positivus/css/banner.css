@@ -1,0 +1,153 @@
+@media (min-width: 1200px) {
+  .banner {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .banner-text {
+    margin-right: 110px;
+  }
+
+  .banner-text__heading {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .banner-text__description {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+
+  .banner-text__button {
+    color: #f3f3f3;
+    background-color: #191a23;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 20px 35px;
+    border-width: 1px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .banner-text__button:hover {
+    background-color: #b9ff66;
+    color: #191a23;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .banner {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .banner-text {
+    margin-right: 110px;
+  }
+
+  .banner-text__heading {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .banner-text__description {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+
+  .banner-text__button {
+    color: #f3f3f3;
+    background-color: #191a23;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 35px;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  .banner__illustration {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 480px) {
+  .banner {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  .banner-container {
+    margin: 0 auto;
+  }
+
+  .banner-text__heading {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .banner-text__description {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+
+  .banner-text__button {
+    color: #f3f3f3;
+    background-color: #191a23;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 20px 35px;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  .banner__illustration {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .banner-text__heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .banner-text__description {
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .banner-text__button {
+    color: #f3f3f3;
+    background-color: #191a23;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 20px 35px;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  .banner__illustration {
+    display: none;
+  }
+}
